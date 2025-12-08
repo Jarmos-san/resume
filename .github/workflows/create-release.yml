@@ -34,7 +34,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Typst
-        uses: typst-community/setup-typst@v4.3.0
+        uses: typst-community/setup-typst@v4.3.1
 
       - name: Build the Artifact
         run: |
